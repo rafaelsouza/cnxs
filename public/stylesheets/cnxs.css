@@ -1,0 +1,400 @@
+/* css of CNXS */
+
+/* General stuff */
+body {
+  font: 1em/1.5em Geneva,Arial,Tahoma,sans-serif;
+  color: #555;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #981a21;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #981a21;
+}
+
+#cnxs_logo {
+  margin: 0;
+  width: 303px;
+  height: 198px;
+  background: url(/images/h1_composition.png) no-repeat transparent;
+}
+
+#logout_button {
+  text-decoration: none;
+  float: right;
+}
+
+#menu {
+  margin: 0;
+  padding: 0;
+  background: url(/images/box.png) repeat-y;
+}
+
+#menu h1 {
+  margin: 0;
+  width: 303px;
+  height: 15px;
+  background: url(/images/top_box.png) no-repeat transparent;
+}
+
+#menu a {
+  margin: 10px 0 5px 40px;
+}
+
+#menu a:hover {
+  background-position: 0 -14px;
+}
+
+#menu .hidden {
+  display: none;
+}
+
+#menu .menu_item_home {
+  background: url(/images/text_home.png) transparent no-repeat;
+  height: 14px;
+  width: 62px;
+  display: block;
+}
+
+#misc_links {
+  margin-left: 35px;
+}
+
+#menu .menu_item_we {
+  background: url(/images/text_we.png) transparent no-repeat;
+  height: 14px;
+  width: 33px;
+  display: block;
+}
+
+#menu .menu_item_projects {
+  background: url(/images/text_projects.png) transparent no-repeat;
+  height: 14px;
+  width: 112px;
+  display: block;
+}
+
+#menu h2 {
+  width: 303px;
+  margin: 0;
+  height: 30px;
+  background: url(/images/bottom_box.png) no-repeat transparent;
+}
+
+#content_box {
+  position: absolute;
+  top: 91px;
+  left: 270px;
+  width: 670px;
+}
+
+.content_box_title {
+  margin: 0;
+  width: 670px;
+  height: 30px;
+}
+
+.content_box_title#index_top {
+  background: url(/images/top_content_blog.png) no-repeat;
+}
+
+.content_box_title#users_top {
+  background: url(/images/top_content_we.png) no-repeat transparent;
+}
+
+.content_box_title#posts_top {
+  background: url(/images/top_content_blog.png) no-repeat transparent;
+}
+
+.content_box_title#login_top {
+  background: url(/images/top_content_projects.png) no-repeat transparent;
+}
+
+#content_box {
+  margin: 0;
+  background: url(/images/right_content.png) repeat-y top right transparent;
+}
+
+#content_box > div {
+  margin: 15px 30px 15px 45px;
+}
+
+.content #information_wrapper {
+  padding: 15px 30px 15px 45px;
+}
+
+.content .post_title {
+  font: 1.5em/1.8em Geneva,Arial,Tahoma,sans-serif;
+  color: #981a21;
+  margin: 0;
+}
+
+.content .post_content {
+  padding: 5px 0;
+}
+
+.content .picture {
+  margin: 15px 30px 15px 45px;
+  padding: 10px;
+  border: 1px dashed #999;
+}
+
+.content #the_team {
+  float: left;
+  width: 250px;
+  height: 219px;
+  background: url(/images/the_team.png) no-repeat center transparent;
+}
+
+.content #bellani_head {
+  float: left;
+  width: 250px;
+  height: 219px;
+  background: url(/images/bellani.png) no-repeat center transparent;
+}
+
+.content #rafael_head {
+  float: left;
+  width: 250px;
+  height: 219px;
+  background: url(/images/rafael.png) no-repeat center transparent;
+}
+
+.content #wilson_head {
+  float: left;
+  width: 250px;
+  height: 219px;
+  background: url(/images/wilson.png) no-repeat center transparent;
+}
+
+.content #men_at_work {
+  position: relative;
+  margin-left: 120px;
+  width: 250px;
+  height: 333px;
+  background: url(/images/men_at_work.png) no-repeat center transparent;
+}
+
+.blog_post {
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #999;
+}
+
+.flash_div {
+  padding: 0;
+}
+
+.xhtml_valid_logo {
+  background: url(/images/slogo_xhtml10.png) no-repeat center transparent;
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.css_valid_logo {
+  background: url(/images/slogo_css.png) no-repeat center transparent;
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.atom_valid_logo {
+  background: url(/images/valid-atom.png) no-repeat center transparent;
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.delicious_valid_logo {
+  background: url(/images/del.icio.us.png) no-repeat center transparent;
+  width: 80px;
+  height: 15px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.bookmark_image {
+  border: 0;
+  width: 125px;
+  height: 16px;
+  cursor: pointer;
+}
+
+#content_box #content_box_bottom {
+  width: 670px;
+  height: 30px;
+  background: url(/images/bottom_content.png) no-repeat right;
+  margin: 0;
+}
+
+/* Style of the comments section. */
+.post_info {
+  text-decoration: none;
+  font: 0.75em Geneva,Arial,Tahoma,sans-serif;
+  color: #555;
+  margin: 5px 0;
+}
+
+.comments a {
+  text-decoration: none;
+  font: 0.75em Geneva,Arial,Tahoma,sans-serif;
+  color: #555;
+}
+
+.comments a:hover {
+  text-decoration: underline;
+}
+
+.comment {
+  margin-top: 25px;
+  padding: 5px;
+  border: 1px dashed #999;
+}
+
+.comment_title {
+  font: 0.75em Geneva,Arial,Tahoma,sans-serif;
+}
+.comment_field {
+  width: 250px;
+}
+
+.comment_area {
+  width: 410px;
+  height: 120px;
+}
+
+.new_comment {
+  margin-top: 25px;
+}
+
+/* manage stuff */
+table {
+  margin: 0;
+  padding: 0;
+}
+
+th a s {
+  text-decoration: none;
+  color: #555;
+}
+
+th a:hover {
+  text-decoration: underline;
+}
+
+td {
+  border: 1px solid #999;
+}
+
+td.alt {
+  color: #e7dede;
+}
+
+.recaptcha_box {
+  height: 300px;
+  width: 500px;
+}
+
+caption {}
+
+/* pagination */
+.pagination {
+  padding: 3px;
+  margin: 3px;
+}
+
+.pagination a {
+  padding: 2px 5px;
+  margin: 2px;
+  border: 1px solid #981A21;
+  text-decoration: none;
+  color: #981A21;
+}
+
+.pagination a:hover, .pagination a:active {
+  border: 1px solid #981A21;
+  color: #981A21;
+}
+
+.pagination span.current {
+  padding: 2px 5px;
+  margin: 2px;
+  border: 1px solid #981A21;
+  font-weight: bold;
+  background-color: #981A21;
+  color: #FFF;
+}
+
+.pagination span.disabled {
+  padding: 2px 5px;
+  margin: 2px;
+  border: 1px solid #eee;
+  color: #ddd;
+}
+
+/* tags */
+.tags {
+  text-decoration: none;
+  font: 1.4em Geneva,Arial,Tahoma,sans-serif;
+}
+
+#tag_list {
+  width: 250px;
+}
+
+.css1 { font-size: 1.0em; }
+.css2 { font-size: 1.2em; }
+.css3 { font-size: 1.4em; }
+.css4 { font-size: 1.6em; }
+
+/* code */
+/* pre {
+  background:#000 none repeat scroll 0 0;
+  color:#EEE;
+  margin:1em 0;
+  overflow-x:auto;
+  padding:10px 10px 2em;
+  width:550px
+} */
+
+/* found on http://blog.wolfman.com/articles/2006/05/26/howto-format-ruby-code-for-blogs */
+pre {
+    background-color: #f1f1f3;
+    color: #112;
+    padding: 10px;
+    font-size: 1.1em;
+    overflow: auto;
+    margin: 4px 0px;
+    width: 95%;
+}
+
+/* Syntax highlighting */
+pre .normal {}
+pre .comment { color: #005; font-style: italic; }
+pre .keyword { color: #A00; font-weight: bold; }
+pre .method { color: #077; }
+pre .class { color: #074; }
+pre .module { color: #050; }
+pre .punct { color: #447; font-weight: bold; }
+pre .symbol { color: #099; }
+pre .string { color: #944; background: #FFE; }
+pre .char { color: #F07; }
+pre .ident { color: #004; }
+pre .constant { color: #07F; }
+pre .regex { color: #B66; background: #FEF; }
+pre .number { color: #F99; }
+pre .attribute { color: #5bb; }
+pre .global { color: #7FB; }
+pre .expr { color: #227; }
+pre .escape { color: #277; }
+/* end */
